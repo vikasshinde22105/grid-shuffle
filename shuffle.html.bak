@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="shuffle.js"></script>
+  <link rel='stylesheet' href="shuffle.css"/>
+  <title>Document</title>
+ </head>
+ <body onload="loadGrid()">
+  <div id="grid-2">
+     <div id='col-right'>
+   <div onClick="shuffle()" class="btn btn-shuffle">Shuffle</div>
+   <div onClick="sort()" class="btn btn-sort">Sort</div>
+
+  </div>
+  <div id='col-left'>
+  </div>
+
+  
+</div>
+ </body>
+</html>
